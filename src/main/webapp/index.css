@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    font-weight: bolder;
+    color: white;
+    
+}
+
+
+.nav-link {
+
+    color: rgb(252, 249, 249);
+    font-size: 1rem;
+    font-weight: 700;
+
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.nav-link:hover {
+    color: rgb(41, 33, 33);
+    background-color: rgb(8, 8, 8);
+}
+
+.navbar .nav-link.active {
+
+    color: aliceblue;
+
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.paint-card {
+    
+    -webkit-box-shadow: -14px -11px 11px -8px rgba(18, 18, 17, 1);
+    -moz-box-shadow: -14px -11px 11px -8px rgba(18, 18, 17, 1);
+    box-shadow: -14px -11px 11px -8px rgba(18, 18, 17, 1);
+
+}
+
+.card {
+    height: 400px;
+
+}
+.trans{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+footer{
+    height: 30px;
+   
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+#log{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 370px;
+    width: 350px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+    
+        
+
+}
+#input{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    color: rgb(12, 12, 12);
+    justify-content: center;
+    
+    border-radius: 8px;
+}
+#contact{
+    border: 1px solid black;
+    height: 500px;
+    width:700px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+#payment{
+    border: 2px solid black;
+    height: 525px;
+    width: 650px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+}
+#terms{
+    border: 2px solid black;
+    height: 525px;
+    width: 650px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+
+}
+
+#reg{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+#myprofile{
+    height: fit-content;
+    padding:10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#myprofile input, #list{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;width: 300px;
+    margin-top: 15px;
+    border: 1px solid black;
+    
+
+    
+    
+}
